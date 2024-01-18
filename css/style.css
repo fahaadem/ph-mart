@@ -149,7 +149,7 @@ header nav .menu a li:hover {
     padding: 0 20rem;
     width: 100%;
     height: 100%;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
     margin-top: 15rem;
 }
 
@@ -198,4 +198,61 @@ header nav .menu a li:hover {
     line-height: 1rem;
     font-size: 1.5rem;
     margin-top: 1rem;
+}
+
+/* ----------- Best Section Styles------------ */
+
+.best-section {
+    padding: 0 20rem;
+    margin-bottom: 10rem;
+}
+
+.best-section .best-section-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.best-section-images .best-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.best-section-images .best-card img {
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+}
+
+.best-section h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.best-section .best-section-images .best-card h3 {
+    margin-top: 1.5rem;
+}
+
+.best-section-images .best-card p {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+/* --------- Footer Section styles --------- */
+footer {
+    margin-top: 5rem;
+    font-size: 1rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefefef;
 }
