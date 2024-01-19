@@ -367,7 +367,7 @@ footer {
 
 /* Responsive for laptop devices */
 
-@media screen and (max-width: 1200px)  {
+@media screen and (min-width: 900px) and (max-width: 1200px)  {
 
     header,
     .hero-section,
